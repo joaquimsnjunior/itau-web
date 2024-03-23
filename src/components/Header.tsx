@@ -2,7 +2,7 @@ import Image from "next/image";
 import Logo from '@/assets/logo.png'
 import { Search } from "./Search";
 
-export function HeaderTest() {
+export function Header() {
   return (
     <nav className="bg-white dark:bg-primary-orange fixed w-full z-20 top-0 start-0 border-b dark:border-white">
       <div className="max-w-screen-xl flex flex-wrap items-center justify-between mx-auto p-4">
